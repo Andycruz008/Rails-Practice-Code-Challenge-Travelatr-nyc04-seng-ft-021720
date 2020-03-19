@@ -1,0 +1,11 @@
+<h2> Your profile <h2>
+
+<%= for_for @blogger do |f| %>
+    <%= f.name %>
+    <%= f.age %>
+    <%= f.bio %>
+    <%end%>
+
+    #label total likes
+    #adds likes on posts where author id matches blogger id and displays
+    #displays most liked post
